@@ -2,7 +2,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -78,7 +78,6 @@ To learn more about React Native, take a look at the following resources:
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 
-
 # MP3 Downloader App
 
 This React Native application allows users to download MP3 files from URLs.
@@ -89,9 +88,10 @@ This React Native application allows users to download MP3 files from URLs.
 
 First, initialize a new React Native project named `Mp3Downloader`:
 
-```bash
+```
 npx react-native init Mp3Downloader
 cd Mp3Downloader
+```
 
 Step 2: Install Required Libraries
 
@@ -142,4 +142,7 @@ Notes
 
     Handle errors gracefully, such as network failures or invalid URLs, in your application logic.
     Ensure your development environment is set up correctly for React Native development.
-   ```
+
+```
+
+```
