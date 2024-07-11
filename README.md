@@ -2,7 +2,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -78,7 +78,6 @@ To learn more about React Native, take a look at the following resources:
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 
-
 # MP3 Downloader App
 
 This React Native application allows users to download MP3 files from URLs.
@@ -89,47 +88,53 @@ This React Native application allows users to download MP3 files from URLs.
 
 First, initialize a new React Native project named `Mp3Downloader`:
 
-```bash
+```
 npx react-native init Mp3Downloader
 cd Mp3Downloader
+```
 
 Step 2: Install Required Libraries
 
 Install the necessary libraries for file system access and file downloading:
 
-bash
+```
 
 npm install react-native-fs react-native-fetch-blob react-native-permissions
+
+```
 
 Step 3: Link Libraries (for React Native versions below 0.60)
 
 If you're using a React Native version below 0.60, link the libraries manually:
 
-bash
+```
 
 npx react-native link react-native-fs
 npx react-native link react-native-fetch-blob
 npx react-native link react-native-permissions
+```
 
 Step 4: Handle Permissions
 Android
 
 Ensure your app has the necessary permissions in AndroidManifest.xml for storage access and network communication:
 
-xml
+```
 
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 <uses-permission android:name="android.permission.INTERNET"/>
+```
 
 iOS
 
 Make sure to request permissions in your Info.plist file to access storage and network:
 
-xml
+```
 
 <key>NSPhotoLibraryAddUsageDescription</key>
 <string>Our app needs permission to save photos to your library.</string>
+```
 
 Usage
 
