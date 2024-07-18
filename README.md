@@ -147,3 +147,8 @@ Notes
 
     Handle errors gracefully, such as network failures or invalid URLs, in your application logic.
     Ensure your development environment is set up correctly for React Native development.
+
+
+## react-native-fetch-blob 
+```  +++  implementation 'com.facebook.react:react-native:+'   ```
+```  +++  buildToolsVersion "23.0.1"   ```
